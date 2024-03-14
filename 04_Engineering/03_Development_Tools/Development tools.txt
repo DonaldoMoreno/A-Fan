@@ -1,0 +1,51 @@
+
+Development tools
+
+Entornos de Desarrollo Integrado (IDEs):
+	Visual Studio Code
+	Sublime Text
+	Notepad++
+	Arduino IDE
+
+Comparison tool:
+	Beyond Compare*
+
+Compiladores y Herramientas de Compilación:
+	GCC (GNU Compiler Collection)
+	ESP-IDF
+
+Control de Versiones:
+	Git
+	GitHub
+	Fork
+
+Herramientas de Gestión de Proyectos y Colaboración:
+	Pendiente(similar a Jira)
+	Slack
+
+Colaboración y Comunicación:
+	Slack (teams gratis)
+	Titan(email) 
+	Zoom (junta con clientes)
+
+Automatización de Construcción y Despliegue (CI/CD):
+	Jenkins
+	GitLab CI/CD
+
+Control de Calidad y Pruebas:
+	GTEST
+
+Gestión de Dependencias:
+	npm (Node.js)
+	pip (Python)
+
+Herramientas de Documentación y Generación de Informes:
+	Latex
+	Doxygen
+
+Herramientas de Diseño y Prototipado:
+	KiCad
+	FreeCad
+
+Virtualización y Contenedores:
+	Docker

@@ -1,0 +1,220 @@
+REQUERIMIENTOS A-FAN 
+
+controlador genérico de bajo costo basado en tecnología Bluetooth/WiFi Y el modulo ESP23 para simplificar la instalación de sistemas automatizados y permitir el control remoto a través de asistentes de voz como Alexa.
+
+1.- Requerimientos funcionales
+2.- Requerimientos no funcionales
+3.- Requerimientos de interfaz
+4.- Requerimientos de datos
+5.- Requerimientos de hardware y software
+6.- Requerimientos de rendimiento
+7.- Requerimientos de seguridad y privacidad
+8.- Anexos
+
+Requerimientos funcionales
+*Lista detallada de las funciones y características que el sistema debe proporcionar.
+*Descripción de las interacciones entre el usuario y el sistema.
+*Ejemplos de casos de uso que ilustren cómo se utilizará el sistema en diferentes situaciones.
+
+1.- Control de velocidad: El sistema debe permitir al usuario ajustar la velocidad del ventilador según sus preferencias y las condiciones ambientales. Esto implica ofrecer opciones predefinidas de velocidad, como baja, media y alta, para adaptarse a diferentes necesidades de ventilación.
+
+2.- Control gradual de velocidad: Además de las opciones predefinidas de velocidad, el sistema debe permitir un ajuste gradual de la velocidad del ventilador. Esto significa que el usuario puede seleccionar cualquier velocidad intermedia dentro del rango de operación del ventilador para lograr un nivel de confort óptimo.
+
+3.- Activación y desactivación: El sistema debe permitir al usuario encender y apagar el ventilador de manera intuitiva y eficiente. Esto implica proporcionar controles claros y accesibles para iniciar y detener el funcionamiento del ventilador según sea necesario.
+
+4.- Control remoto: Se debe brindar la capacidad de controlar el ventilador de forma remota para mayor comodidad y conveniencia. Esto puede lograrse mediante un control remoto infrarrojo, una aplicación móvil dedicada o incluso a través de comandos de voz utilizando asistentes de voz populares.
+
+5.- Integración con asistentes de voz: El sistema debe ser compatible con asistentes de voz como Alexa de Amazon o Google Assistant. Esto permite al usuario controlar el ventilador mediante comandos de voz simples y naturales, como "Alexa, enciende el ventilador" o "Google, ajusta la velocidad del ventilador a baja".
+
+6.- Indicación de velocidad: Para proporcionar retroalimentación al usuario, el sistema debe incluir alguna forma de indicación visual o audible de la velocidad actual del ventilador. Esto puede ser a través de luces LED, indicadores en la aplicación móvil o sonidos audibles que indiquen la velocidad seleccionada.
+
+7.- Memoria de configuración: El sistema debe ser capaz de recordar la configuración de velocidad del ventilador seleccionada anteriormente. Esto asegura que el ventilador mantenga la velocidad preferida incluso después de apagar y volver a encender el sistema.
+
+8.- Seguridad: Es crucial que el sistema incorpore características de seguridad para proteger contra posibles riesgos, como sobrecargas, cortocircuitos o sobrecalentamiento. Esto garantiza un funcionamiento seguro y confiable del ventilador en todo momento.
+
+9.- Compatibilidad con diferentes tipos de ventiladores: Dado que existen una variedad de modelos de ventiladores de techo en el mercado, el sistema debe ser compatible con diferentes tipos de ventiladores, incluyendo aquellos con diferentes capacidades de potencia y diseños de control.
+
+10.- Integración con sistemas de automatización del hogar: Para aprovechar al máximo la funcionalidad del sistema, debe ser capaz de integrarse con otros dispositivos y sistemas de automatización del hogar. Esto permite la creación de escenarios de control avanzado y la automatización personalizada para una experiencia de usuario aún más completa.
+
+
+Requerimientos no funcionales
+*Aspectos relacionados con la calidad del sistema, como rendimiento, seguridad, usabilidad, escalabilidad, etc.
+*Restricciones técnicas, legales o de otro tipo que deben tenerse en cuenta durante el desarrollo.
+
+Rendimiento: Se refiere a la capacidad del sistema para responder de manera rápida y eficiente a los comandos del usuario, así como para mantener una velocidad de ventilador constante y uniforme bajo diferentes condiciones de carga.
+
+Fiabilidad: El sistema debe ser confiable y estar disponible cuando se necesite. Esto implica evitar fallos inesperados y garantizar una operación estable y consistente a lo largo del tiempo.
+
+Seguridad: El sistema debe cumplir con estándares de seguridad relevantes para garantizar la protección del usuario y del propio sistema. Esto puede incluir protección contra cortocircuitos, sobrecargas eléctricas, sobrecalentamiento del motor y otros riesgos potenciales.
+
+Usabilidad: El sistema debe ser fácil de usar y comprender para una amplia variedad de usuarios, independientemente de su nivel de experiencia técnica. Esto implica proporcionar una interfaz clara e intuitiva, así como instrucciones de uso claras.
+
+Escalabilidad: El sistema debe ser capaz de adaptarse y crecer para satisfacer las necesidades futuras del usuario. Esto puede incluir la capacidad de controlar múltiples ventiladores desde una única interfaz o la capacidad de expandir el sistema para incluir funciones adicionales en el futuro.
+
+Interoperabilidad: El sistema debe ser compatible con otros sistemas y dispositivos existentes en el hogar o en el entorno donde se utilizará. Esto garantiza que el sistema de control de velocidad del ventilador pueda integrarse sin problemas con otros sistemas de automatización del hogar o dispositivos de control inteligente.
+
+Eficiencia energética: El sistema debe ser eficiente en términos de consumo de energía, minimizando el desperdicio de energía y contribuyendo a la sostenibilidad ambiental.
+
+Mantenibilidad: El sistema debe ser fácil de mantener y actualizar. Esto implica proporcionar acceso a piezas de repuesto, documentación clara y soporte técnico adecuado para resolver problemas y realizar actualizaciones de software o hardware.
+
+Compatibilidad: El sistema debe ser compatible con una variedad de dispositivos y plataformas, como teléfonos inteligentes, tabletas, sistemas operativos móviles y navegadores web, para garantizar una amplia accesibilidad y usabilidad.
+
+
+Requerimientos de interfaz:
+*Requerimientos relacionados con la interfaz de usuario, incluyendo diseño visual, navegación, y experiencia del usuario.
+*Especificaciones técnicas para la integración con otros sistemas o dispositivos.
+
+Interfaz de usuario intuitiva: La interfaz de usuario debe ser fácil de entender y usar, incluso para usuarios sin experiencia técnica. Debe ser intuitiva y proporcionar controles claros y fáciles de seguir para ajustar la velocidad del ventilador.
+
+Controles de velocidad accesibles: Deben proporcionarse controles visuales o táctiles para ajustar la velocidad del ventilador de manera fácil y rápida. Esto puede incluir botones físicos, perillas giratorias o controles táctiles en una pantalla.
+
+Indicación de velocidad: La interfaz debe proporcionar retroalimentación visual sobre la velocidad actual del ventilador. Esto puede incluir indicadores LED, barras de progreso o números que muestren la velocidad seleccionada.
+
+Indicadores de estado: Se deben incluir indicadores visuales para mostrar el estado del sistema, como si el ventilador está encendido o apagado, si está en modo de espera o si hay algún problema de funcionamiento.
+
+Compatibilidad con dispositivos móviles: La interfaz debe ser compatible con dispositivos móviles, como teléfonos inteligentes y tabletas, para permitir el control remoto del ventilador a través de una aplicación móvil dedicada.
+
+Control remoto: Debe proporcionarse la capacidad de controlar el ventilador de forma remota a través de un control remoto con Bluetooth o WiFi (ESP32-WROVER).
+
+Integración con asistentes de voz: La interfaz debe ser compatible con asistentes de voz como Alexa de Amazon o Google Assistant, permitiendo al usuario controlar el ventilador mediante comandos de voz simples y naturales.
+
+Personalización de la interfaz: Debe proporcionarse la capacidad de personalizar la interfaz según las preferencias del usuario, como ajustar el tamaño del texto, cambiar el color de fondo o reorganizar los elementos de la pantalla.
+
+Facilidad de navegación: La interfaz debe ser fácil de navegar, con una estructura lógica y coherente que permita al usuario encontrar rápidamente los controles que necesita.
+
+Compatibilidad con múltiples idiomas: Se debe proporcionar la opción de cambiar el idioma de la interfaz para satisfacer las necesidades de usuarios de diferentes regiones y culturas.
+
+
+
+Requerimientos de datos:
+*Especificaciones sobre los tipos de datos que el sistema manejará.
+*Formato de los datos y requisitos de almacenamiento.
+*Reglas de validación de datos.
+
+Configuración de velocidad: El sistema debe almacenar la configuración de velocidad seleccionada por el usuario, lo que incluye la velocidad actual del ventilador y las preferencias de velocidad predeterminadas.
+
+Datos de estado del ventilador: Se deben recopilar datos sobre el estado actual del ventilador, como si está encendido o apagado, la velocidad de funcionamiento actual y cualquier mensaje de error o advertencia.
+
+Datos de entrada del usuario: El sistema debe capturar los comandos y ajustes de velocidad enviados por el usuario a través de la interfaz de usuario, el control remoto o los comandos de voz.
+
+Datos de sensorización: Si el sistema utiliza sensores para monitorear variables ambientales como la temperatura o la humedad, se deben recopilar y procesar los datos de estos sensores para ajustar dinámicamente la velocidad del ventilador según sea necesario.
+
+Datos de diagnóstico y registro: El sistema debe ser capaz de registrar datos de diagnóstico, como registros de eventos, registros de errores y registros de actividad, para facilitar el análisis y la resolución de problemas.
+
+Datos de configuración del dispositivo: Se deben almacenar datos de configuración del dispositivo, como la dirección IP, la configuración de red, la configuración de idioma y cualquier otra preferencia del usuario.
+
+Datos de seguridad: Si el sistema incluye características de seguridad, como contraseñas de acceso o permisos de usuario, se deben almacenar los datos relacionados con la autenticación y la autorización.
+
+Datos de compatibilidad: Si el sistema se integra con otros dispositivos o plataformas de automatización del hogar, se deben recopilar y almacenar datos relacionados con la compatibilidad y la interoperabilidad.
+
+
+
+Requerimientos de hardware y software:
+*Especificaciones sobre los recursos de hardware y software necesarios para ejecutar el sistema.
+*Plataformas y tecnologías específicas requeridas.
+
+Requerimientos de Hardware:
+ESP32-WROVER: El sistema requerirá al menos dos módulo ESP32-WROVER como componente principal para el control del ventilador y la comunicación inalámbrica.
+
+Motor del Ventilador: El sistema debe ser compatible con el motor del ventilador que se utilizará. Esto implica asegurarse de que el motor sea compatible con la capacidad de control del ESP32 y que pueda manejar la corriente y el voltaje proporcionados por el sistema.
+
+Fuente de Alimentación: Se necesita una fuente de alimentación adecuada para alimentar tanto el ESP32-WROVER como el motor del ventilador. Esto puede ser una fuente de alimentación externa o una fuente de alimentación incorporada al sistema.
+
+Circuito de Control de Potencia: Se necesita un circuito de control de potencia para regular la velocidad del ventilador. Esto puede incluir componentes como triacs, mosfets u otros dispositivos de control de potencia.
+
+Sensores (Opcional): Si el sistema necesita sensores para monitorear variables ambientales como la temperatura o la humedad, se deben incluir los sensores correspondientes en el diseño del hardware.
+
+Requerimientos de Software:
+Firmware del ESP32: Se necesita un firmware específico para el ESP32-WROVER que incluya el código necesario para controlar el ventilador y gestionar la comunicación inalámbrica.
+
+Programación del ESP32: Se requiere la programación del ESP32-WROVER utilizando un entorno de desarrollo compatible, como el entorno de desarrollo integrado (IDE) de Arduino o el Espressif IoT Development Framework (ESP-IDF).
+
+Control de velocidad: El firmware debe incluir algoritmos y lógica de control para ajustar la velocidad del ventilador según las preferencias del usuario y las condiciones ambientales.
+
+Interfaz de Usuario: Se necesita una interfaz de usuario para permitir al usuario interactuar con el sistema y ajustar la velocidad del ventilador. Esto puede incluir una interfaz basada en una aplicación móvil, una interfaz web o una interfaz de línea de comandos.
+
+Comunicación Inalámbrica: El firmware debe incluir la lógica necesaria para gestionar la comunicación inalámbrica utilizando las capacidades WiFi o Bluetooth del ESP32-WROVER.
+
+Integración con Asistentes de Voz (Opcional): Si se desea integrar el sistema con asistentes de voz como Alexa o Google Assistant, se necesitará software adicional para gestionar la comunicación con estos servicios y procesar los comandos de voz.
+
+
+
+Requerimientos de rendimiento:
+Métricas y criterios para evaluar el rendimiento del sistema, como tiempo de respuesta, capacidad de procesamiento, etc.
+
+Velocidad de respuesta: El sistema debe responder de manera rápida y eficiente a los comandos del usuario para ajustar la velocidad del ventilador. Esto incluye un tiempo de respuesta mínimo desde que se emite el comando hasta que se realiza el ajuste de velocidad correspondiente, el tiempo de respuesta tentativo es de 200 ms.
+
+Estabilidad y consistencia: El sistema debe mantener una velocidad de ventilador constante y uniforme, independientemente de las condiciones de carga o las fluctuaciones en las condiciones ambientales. Esto garantiza un rendimiento estable y consistente del ventilador.
+
+Precisión en el control de velocidad: El sistema debe ser capaz de ajustar la velocidad del ventilador con precisión y exactitud según las preferencias del usuario. Esto implica garantizar que la velocidad seleccionada se mantenga de manera constante y sin fluctuaciones no deseadas.
+
+Eficiencia energética: El sistema debe ser eficiente en términos de consumo de energía, minimizando el desperdicio de energía y optimizando el rendimiento del ventilador para lograr una ventilación efectiva con el menor consumo de energía posible.
+
+Capacidad de carga: El sistema debe ser capaz de controlar ventiladores de diferentes tamaños y capacidades de potencia. Esto implica garantizar que el sistema pueda manejar la corriente y el voltaje requeridos por el ventilador sin problemas.
+
+Escalabilidad: El sistema debe ser escalable para adaptarse a diferentes configuraciones y requisitos de aplicación. Esto puede incluir la capacidad de controlar múltiples ventiladores desde una única instancia del sistema o la capacidad de ampliar el sistema para incluir más funciones y características en el futuro.
+
+Tolerancia a fallos: El sistema debe ser capaz de manejar situaciones de fallo de manera adecuada, minimizando el impacto en el rendimiento general del sistema y garantizando la seguridad y la fiabilidad del ventilador.
+
+Tiempo de vida útil: El sistema debe estar diseñado para funcionar de manera confiable durante un período prolongado de tiempo sin degradación significativa en el rendimiento o la funcionalidad. Esto implica garantizar la calidad y la durabilidad de los componentes utilizados en el sistema.
+
+
+
+Requerimientos de seguridad y privacidad:
+*Requisitos para proteger los datos del sistema y garantizar la seguridad de la información.
+*Políticas de acceso y control de privilegios.
+
+Requerimientos de Seguridad:
+Protección contra sobrecargas eléctricas: El sistema debe incluir protección contra sobrecargas eléctricas para evitar daños al ventilador o a otros componentes en caso de una fluctuación de corriente o voltaje.
+
+Protección contra cortocircuitos: Se deben implementar medidas de seguridad para prevenir y mitigar los efectos de cortocircuitos eléctricos que puedan ocurrir en el sistema.
+
+Protección contra sobrecalentamiento: El sistema debe incluir mecanismos para detectar y prevenir el sobrecalentamiento del motor del ventilador, lo que puede ser perjudicial para su funcionamiento.
+
+Aislamiento eléctrico adecuado: Se deben tomar precauciones para garantizar un aislamiento eléctrico adecuado en el diseño del sistema, especialmente en aplicaciones donde se manejan altos voltajes.
+
+Seguridad física: Se deben tomar medidas para proteger físicamente el sistema contra accesos no autorizados, como el uso de carcasas a prueba de manipulaciones o sistemas de bloqueo.
+
+Actualizaciones de firmware seguras: El sistema debe proporcionar un mecanismo seguro para la actualización de firmware, asegurando que solo se instalen actualizaciones autenticadas y verificadas para prevenir ataques de firmware malicioso.
+
+Requerimientos de Privacidad:
+Protección de datos de usuario: El sistema debe proteger los datos de usuario, como preferencias de velocidad y configuraciones personalizadas, contra accesos no autorizados o uso indebido.
+
+Transmisión segura de datos: Se deben utilizar protocolos de comunicación seguros, como HTTPS o TLS, para garantizar la seguridad de la transmisión de datos entre el sistema y otros dispositivos o servicios en red.
+
+Recopilación de datos mínima: El sistema debe limitar la recopilación de datos solo a aquellos necesarios para su funcionamiento y no recopilar datos adicionales sin el consentimiento del usuario.
+
+Anonimización de datos: Cuando sea posible, se deben anonimizar los datos recopilados para proteger la privacidad del usuario y evitar la identificación personal.
+
+Cumplimiento de regulaciones de privacidad: El sistema debe cumplir con las regulaciones de privacidad mexicanas, como la Ley Federal de Protección de Datos Personales en Posesión de los Particulares (LFPDPPP) y su reglamento.
+
+Notificación de brechas de seguridad: En caso de una brecha de seguridad que comprometa la privacidad de los datos de usuario, el sistema debe proporcionar notificaciones adecuadas a los usuarios afectados y tomar medidas para mitigar los impactos de la brecha.
+
+
+Anexos:
+El objetivo de mercado es Mexico por lo cual el diseno se tiene que apegar al reglamento local.
+*Cualquier información adicional relevante para comprender o implementar los requerimientos.
+
+Requerimientos de Seguridad:
+Cumplimiento con regulaciones mexicanas: El sistema debe cumplir con las regulaciones de seguridad eléctrica y de productos en México, como las normas NOM (Norma Oficial Mexicana) pertinentes.
+
+Certificaciones de seguridad: El sistema debe ser probado y certificado por organismos autorizados en México para garantizar que cumple con los estándares de seguridad y calidad requeridos.
+
+Protección contra sobretensiones: El sistema debe incluir protección contra sobretensiones eléctricas para garantizar la seguridad del usuario y la integridad del equipo.
+
+Seguridad de los datos: Se deben implementar medidas de seguridad adecuadas para proteger los datos del usuario almacenados en el sistema contra accesos no autorizados o uso indebido.
+
+Protección contra acceso físico no autorizado: Se deben tomar medidas para proteger físicamente el sistema contra accesos no autorizados, como la instalación de cerraduras o carcasas a prueba de manipulaciones.
+
+Requerimientos de Privacidad:
+Cumplimiento con regulaciones de privacidad mexicanas: El sistema debe cumplir con las regulaciones de privacidad mexicanas, como la Ley Federal de Protección de Datos Personales en Posesión de los Particulares (LFPDPPP) y su reglamento.
+
+Consentimiento del usuario: El sistema debe obtener el consentimiento del usuario para recopilar, procesar y almacenar sus datos personales, según lo establecido por la LFPDPPP.
+
+Transparencia en la recopilación de datos: El sistema debe proporcionar información clara y transparente sobre qué datos se recopilan, con qué propósito y cómo se utilizarán, de acuerdo con los principios de privacidad establecidos por la ley mexicana.
+
+Derechos de los titulares de datos: El sistema debe garantizar los derechos de los titulares de datos, como el derecho de acceso, rectificación, cancelación y oposición (derechos ARCO), conforme a lo dispuesto por la LFPDPPP.
+
+Seguridad en la transmisión de datos: Se deben implementar medidas de seguridad adecuadas para garantizar la seguridad de la transmisión de datos entre el sistema y otros dispositivos o servicios en red, especialmente si se trata de datos personales.
+
+Notificación de brechas de seguridad: En caso de una brecha de seguridad que afecte la privacidad de los datos personales, el sistema debe notificar a la autoridad competente y a los titulares de datos afectados, de acuerdo con los requisitos de notificación establecidos por la ley mexicana.
