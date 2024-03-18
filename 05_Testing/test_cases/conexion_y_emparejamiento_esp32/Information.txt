@@ -1,0 +1,1 @@
+La biblioteca bleak no proporciona directamente un método llamado is_paired para verificar si un dispositivo BLE está emparejado. El emparejamiento en Bluetooth de baja energía (BLE) no es tan común o estándar como en Bluetooth clásico, y la mayoría de las veces no se requiere un emparejamiento explícito para comunicarse con un dispositivo BLE.
